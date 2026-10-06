@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kamilla &amp; Henrique — Convite de casamento</title>
+  <meta name="description" content="Convite digital do casamento de Kamilla e Henrique — 09 de outubro de 2027, Fazenda Brisa do Mar.">
+  <meta name="theme-color" content="#faf9f6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Lato:wght@300;400&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="mark"><a href="#capa" data-go="capa" aria-label="Kamilla e Henrique — capa do convite">K&amp;H</a></header>
+  <main class="stage" id="conteudo">
+    <div class="book" id="book">
+      <!-- CAPA -->
+      <section class="leaf cover" id="capa" aria-labelledby="titulo-capa">
+        <div class="deco" aria-hidden="true"><div class="hy bl" data-hy="7"></div><div class="hy tr sm" data-hy="15"></div></div>
+        <div class="sheet">
+          <figure class="arch"><img src="assets/img/reflexo-lago.jpg" alt="Lago da Fazenda Brisa do Mar refletindo palmeiras, árvores e o casarão de madeira"></figure>
+          <div class="body">
+            <h1 class="names" id="titulo-capa">KAMILLA <span class="amp">e</span> HENRIQUE</h1>
+            <p class="hand">Um novo capítulo começa aqui.</p>
+            <p class="dateline">09 • 10 • 2027</p>
+            <p class="meta">15h30 · Fazenda Brisa do Mar</p>
+            <button type="button" class="btn" id="abrir">Abrir nosso convite</button>
+          </div>
+        </div>
+        <div class="flap" aria-hidden="true"><i></i><span class="seal">K&amp;H</span></div>
+      </section>
+
+      <!-- PÁGINA — NOSSO CONVITE -->
+      <section class="leaf" id="convite" data-next-href="about.html" aria-labelledby="t-convite">
+        <figure class="ph top"><img src="assets/img/lago-montanhas.jpg" alt="Lago cercado por árvores, com montanhas ao fundo, na Fazenda Brisa do Mar" style="object-position:62% 50%"></figure>
+        <div class="deco" aria-hidden="true"><div class="hy tl sm" data-hy="3"></div><div class="hy mid sm" data-hy="12"></div><div class="hy br sm" data-hy="21"></div></div>
+        <div class="sheet page-top"><div class="body">
+          <h2 id="t-convite">Nosso convite</h2>
+          <span class="sprig" data-sprig="2"></span>
+          <p class="lead">É com alegria e amor que convidamos você para celebrar conosco este momento tão especial.</p>
+          <p class="hand sign">Kamilla &amp; Henrique</p>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button><button type="button" class="curl" data-step="1" aria-label="Próxima página"></button>
+      </section>
+
+      <!-- PÁGINA — O GRANDE DIA -->
+      <section class="leaf" id="grande-dia" data-prev-href="about.html" aria-labelledby="t-dia">
+        <figure class="ph full"><img src="assets/img/arquitetura-palmeiras.jpg" alt="Casarão de telhado colonial entre palmeiras e gramado verde na Fazenda Brisa do Mar" style="object-position:84% 50%"></figure>
+        <div class="scrim warm"></div>
+        <div class="deco" aria-hidden="true"><div class="hy tr sm" data-hy="30"></div><div class="hy bl sm" data-hy="44"></div></div>
+        <div class="sheet"><div class="body veil">
+          <h2 id="t-dia">O grande dia</h2>
+          <ul class="details">
+            <li><span class="big">09 de outubro de 2027</span></li>
+            <li><span class="big">15h30</span><span class="cap">Cerimônia</span></li>
+            <li><span class="big">Fazenda Brisa do Mar</span></li>
+          </ul>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button><button type="button" class="curl" data-step="1" aria-label="Próxima página"></button>
+      </section>
+
+      <!-- PÁGINA — CONTAGEM REGRESSIVA -->
+      <section class="leaf light" id="contagem" data-tone="dark" aria-labelledby="t-contagem">
+        <figure class="ph full"><img src="assets/img/lago-montanhas.jpg" alt="" style="object-position:70% 50%"></figure>
+        <div class="scrim deep"></div>
+        <div class="deco" aria-hidden="true"><div class="hy tl sm" data-hy="51"></div><div class="hy br sm" data-hy="60"></div></div>
+        <div class="sheet center"><div class="body">
+          <h2 id="t-contagem">Contagem regressiva</h2>
+          <span class="sprig" data-sprig="8"></span>
+          <div class="count" id="contagem-timer" role="timer" aria-label="Tempo restante para o casamento">
+            <div><b id="cd-d">--</b><span>Dias</span></div>
+            <div><b id="cd-h">--</b><span>Horas</span></div>
+            <div><b id="cd-m">--</b><span>Minutos</span></div>
+            <div><b id="cd-s">--</b><span>Segundos</span></div>
+          </div>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button><button type="button" class="curl" data-step="1" aria-label="Próxima página"></button>
+      </section>
+
+      <!-- PÁGINA — LOCAL -->
+      <section class="leaf" id="local" aria-labelledby="t-local">
+        <div class="deco" aria-hidden="true"><div class="hy tr sm" data-hy="71"></div><div class="hy bl sm" data-hy="77"></div></div>
+        <div class="sheet center"><div class="body">
+          <div class="duo">
+            <figure class="a"><img src="assets/img/arquitetura-palmeiras.jpg" alt="Casarão entre palmeiras na Fazenda Brisa do Mar" style="object-position:40% 50%"></figure>
+            <figure class="b"><img src="assets/img/reflexo-lago.jpg" alt="Lago refletindo a paisagem da Fazenda Brisa do Mar"></figure>
+          </div>
+          <h2 id="t-local">Fazenda Brisa do Mar</h2>
+          <p class="small">Lago, montanhas e palmeiras: o cenário onde vamos celebrar este novo capítulo.</p>
+          <!-- ENDEREÇO E MAPA: edite o objeto LOCAL no topo do script.js. -->
+          <p class="where" id="local-info">Endereço e mapa em breve.</p>
+          <p class="credit">Fotos: Kayan Freitas e divulgação</p>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button><button type="button" class="curl" data-step="1" aria-label="Próxima página"></button>
+      </section>
+
+      <!-- PÁGINA — PRESENÇA -->
+      <section class="leaf" id="presenca" aria-labelledby="t-presenca">
+        <figure class="ph top" style="height:22%"><img src="assets/img/lago-montanhas.jpg" alt="" style="object-position:70% 55%"></figure>
+        <div class="deco" aria-hidden="true"><div class="hy tr sm" data-hy="83"></div><div class="hy bl sm" data-hy="90"></div></div>
+        <div class="sheet scroll"><div class="body" style="padding-top:11cqh">
+          <h2 id="t-presenca">Confirme sua presença</h2>
+          <span class="sprig" data-sprig="5"></span>
+          <p class="lead">Será uma alegria ter você conosco.</p>
+          <form id="rsvp" novalidate>
+            <div class="field"><label for="nome">Nome completo</label><input type="text" id="nome" name="nome" autocomplete="name" required></div>
+            <div class="field"><label for="acomp">Número de acompanhantes</label><input type="number" id="acomp" name="acomp" min="0" max="10" value="0" inputmode="numeric"></div>
+            <fieldset class="field"><legend>Sua resposta</legend>
+              <label class="choice"><input type="radio" name="resp" value="sim"> Sim, estarei presente</label>
+              <label class="choice"><input type="radio" name="resp" value="nao"> Não poderei comparecer</label>
+            </fieldset>
+            <p class="err" id="rsvp-err" role="alert"></p>
+            <button type="submit" class="btn">Confirmar presença</button>
+          </form>
+          <div id="rsvp-ok" role="status" hidden><p class="thanks" id="rsvp-msg"></p><button type="button" class="linklike" id="rsvp-edit">Alterar resposta</button></div>
+          <p class="note">Demonstração: a resposta fica salva apenas neste navegador.</p>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button><button type="button" class="curl" data-step="1" aria-label="Próxima página"></button>
+      </section>
+
+      <!-- PÁGINA — PRESENTES -->
+      <section class="leaf" id="presentes" aria-labelledby="t-presentes">
+        <div class="deco" aria-hidden="true"><div class="hy tr sm" data-hy="97"></div><div class="hy tl sm" data-hy="104"></div></div>
+        <div class="sheet scroll"><div class="body" style="padding-top:6cqh">
+          <h2 id="t-presentes">Lista de presentes</h2>
+          <span class="sprig" data-sprig="6"></span>
+          <p class="lead">Escolha um presente e faça parte desse novo capítulo da nossa história.</p>
+          <ul class="gifts" id="gifts"></ul>
+          <p class="note">Esta demonstração utiliza armazenamento local do navegador. <button type="button" id="gifts-reset">Limpar reservas</button></p>
+        </div></div>
+        <button type="button" class="back" data-step="-1" aria-label="Página anterior">‹</button>
+      </section>
+    </div>
+
+    <nav class="tabs" aria-label="Páginas do convite">
+      <ul>
+        <li><a href="#convite" data-go="convite" aria-label="Nosso convite"><span class="t">Convite</span></a></li>
+        <li><a href="about.html" data-go="historia" aria-label="Nossa história"><span class="t">Nossa história</span></a></li>
+        <li><a href="#grande-dia" data-go="grande-dia" aria-label="O grande dia"><span class="t">O grande dia</span></a></li>
+        <li><a href="#contagem" data-go="contagem" aria-label="Contagem regressiva"><span class="t">Contagem</span></a></li>
+        <li><a href="#local" data-go="local" aria-label="Local"><span class="t">Local</span></a></li>
+        <li><a href="#presenca" data-go="presenca" aria-label="Confirme sua presença"><span class="t">Presença</span></a></li>
+        <li><a href="#presentes" data-go="presentes" aria-label="Lista de presentes"><span class="t">Presentes</span></a></li>
+      </ul>
+    </nav>
+  </main>
+  <footer>Kamilla &amp; Henrique · 09.10.2027 · Fotos da Fazenda Brisa do Mar: Kayan Freitas e divulgação</footer>
+  <script src="script.js"></script>
+</body>
+</html>
